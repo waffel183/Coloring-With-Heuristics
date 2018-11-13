@@ -12,6 +12,9 @@ To make your own blocks, change the code in CSP.py
 
 # Packages
 numpy
+
 pydot
+
 matplotlib
+
 pylab
