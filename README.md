@@ -1,5 +1,5 @@
 # Coloring-With-Heuristics
-Python 2.7 program coloring groups of blocks in such a way that no similar color touch.
+Python 2.7 program coloring groups of blocks in such a way that no similar colors touch.
 
 # How to use
 Install all packages using pip install
