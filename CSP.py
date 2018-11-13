@@ -8,6 +8,7 @@ domainValues = ["red", "green", "blue"]
 
 
 #problem specific details
+#The x and y positions of the blocks
 positions = {}
 positions["state1"] = [(2,1),(3,1),(4,1),(4,2)]
 positions["state2"] = [(5,1),(5,2),(6,1),(6,2),(6,3),
@@ -27,6 +28,7 @@ positions["state11"] = [(0,7),(0,8),(1,7)]
 positions["state12"] = [(0,4),(0,5),(0,6),(1,4),(1,5),
                        (1,6),(2,4),(2,5),(2,6)]
 
+#The blocks that border the given block
 constraints = {}
 constraints["state1"] = {"state2"}
 constraints["state2"] = {"state1", "state3", "state4", "state6", "state8"}
